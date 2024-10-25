@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.in{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    font-size: 25px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+}
+.bta{
+    color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: first baseline;
+    font-size: 20px;
+}
+.img{
+    display: flex;
+}
+.img1{
+    display: flex;
+}
+.img2{
+    display: flex;
+}
+.row{
+     display: flex;
+}
+.row2{
+    display: flex;
+}
+.row3{
+    display: flex;
+
+}
+.footer{
+
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.foot h1{
+    
+    background-color: white;
+    color: red;
+}
+.btn{
+
+    background-color: red;
+    color: white;
+    font-size: 30px;
+}
+.cd{
+    display: flex;
+    justify-content: center;
+
+}
+
+.icon{
+    display: flex;
+   justify-content: flex-end;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.icon1{
+    display: flex;
+    font-size: 20PX;
+    gap: 20px;
+}
+
+@media screen and (max-width: 720px)  {
+    .navbar{
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: black;
+        padding: 10px;
+    }
+
+    .in{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: darkgoldenrod;
+        color: black;
+        padding: 20px;
+    }
+    .navbar ul{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgoldenrod;
+    color: black;
+    padding: 20px;
+}
+.bta{
+    color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: first baseline;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 720px) {
+    
+    img .img1 .img2{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+    }
+    .row .row1.row2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20%;
+    }
+}
+}
